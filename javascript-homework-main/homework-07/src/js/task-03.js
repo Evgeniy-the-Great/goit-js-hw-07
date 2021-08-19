@@ -15,9 +15,9 @@ const images = [
 const ulRef = document.querySelector('#gallery');
 const markUp = images.map(({ url, alt }) => `
   <li>
-    <img src="${url}" alt="${alt}">
+    <img src="${url}" alt="${alt}" width = "200">
   </li>
 
 `).join('');
-console.log(markUp);
+// console.log(markUp);
 ulRef.insertAdjacentHTML('afterbegin', markUp);

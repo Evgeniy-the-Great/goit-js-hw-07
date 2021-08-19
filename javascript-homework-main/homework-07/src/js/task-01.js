@@ -12,3 +12,4 @@ const log = arr.forEach(li => {
   console.log(`Категория: ${titleRef.textContent}
   Количество элементов: ${listRef.length}`);
 });;
+
